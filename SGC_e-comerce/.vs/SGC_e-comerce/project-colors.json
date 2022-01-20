@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "68517709-501f-4ca3-94e8-25bbd5863de7": {
+      "ProjectGuid": "68517709-501f-4ca3-94e8-25bbd5863de7",
+      "DisplayName": "ComprasNerd.ProdutoAPI",
+      "ColorIndex": 0
+    },
+    "a7c7788b-208d-4aad-b9d3-0b2c045288bf": {
+      "ProjectGuid": "a7c7788b-208d-4aad-b9d3-0b2c045288bf",
+      "DisplayName": "ComprasNerd.Web",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
