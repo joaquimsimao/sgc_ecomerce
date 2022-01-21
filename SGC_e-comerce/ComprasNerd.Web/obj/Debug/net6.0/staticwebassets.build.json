@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "t5KoHGdd85zzru/Peg2AnFdJgrTULMk4qClXMCN4mI0=",
+  "Hash": "zseZmbqGpRGZ5huzqJeuqz5+027sUDmL4Yc78WDzzjw=",
   "Source": "ComprasNerd.Web",
   "BasePath": "_content/ComprasNerd.Web",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.ProdutoAPI\\ComprasNerd.ProdutoAPI.csproj",
+      "Version": 2,
+      "Source": "ComprasNerd.ProdutoAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "ComprasNerd.Web\\wwwroot",

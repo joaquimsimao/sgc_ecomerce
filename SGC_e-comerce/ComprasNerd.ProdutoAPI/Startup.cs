@@ -1,17 +1,15 @@
+using AutoMapper;
+using ComprasNerd.ProdutoAPI.Config;
 using ComprasNerd.ProdutoAPI.Model.Context;
+using ComprasNerd.ProdutoAPI.Repositorio;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ComprasNerd.ProdutoAPI
 {
@@ -34,6 +32,13 @@ namespace ComprasNerd.ProdutoAPI
             new MySqlServerVersion(
                 new Version(8,0,27))));
             
+            IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+            services.AddSingleton(mapper);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
