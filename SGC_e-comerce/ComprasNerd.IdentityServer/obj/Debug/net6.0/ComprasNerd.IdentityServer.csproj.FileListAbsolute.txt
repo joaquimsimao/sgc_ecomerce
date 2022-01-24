@@ -1,0 +1,9 @@
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.AssemblyInfoInputs.cache
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.AssemblyInfo.cs
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.RazorAssemblyInfo.cache
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.RazorAssemblyInfo.cs
+C:\Users\joaqu\OneDrive\e-comerceSGC2022\SGC_e-comerce\ComprasNerd.IdentityServer\obj\Debug\net6.0\ComprasNerd.IdentityServer.MvcApplicationPartsAssemblyInfo.cs

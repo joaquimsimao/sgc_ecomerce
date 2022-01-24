@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zseZmbqGpRGZ5huzqJeuqz5+027sUDmL4Yc78WDzzjw=",
+  "Hash": "rhNh+/gdtbPG/V7w5cmVT3Q+GOwJ1zT6nxHALH0UlWY=",
   "Source": "ComprasNerd.Web",
   "BasePath": "_content/ComprasNerd.Web",
   "Mode": "Default",
@@ -61,6 +61,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.Web\\wwwroot\\images\\favicon.png",
+      "SourceId": "ComprasNerd.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.Web\\wwwroot\\",
+      "BasePath": "_content/ComprasNerd.Web",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.Web\\wwwroot\\images\\geek_shopping.png",
+      "SourceId": "ComprasNerd.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.Web\\wwwroot\\",
+      "BasePath": "_content/ComprasNerd.Web",
+      "RelativePath": "images/geek_shopping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
     },
     {
       "Identity": "C:\\Users\\joaqu\\OneDrive\\e-comerceSGC2022\\SGC_e-comerce\\ComprasNerd.Web\\wwwroot\\js\\site.js",

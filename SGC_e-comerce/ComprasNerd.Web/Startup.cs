@@ -1,3 +1,4 @@
+using ComprasNerd.Web.Servicos.IService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,7 +23,14 @@ namespace ComprasNerd.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddHttpClient<IProdutoServico, ProdutoService>(c=>
+            c.BaseAddress = new Uri(Configuration["ServiceUrls:ProdutoAPI"])
+            );
+
             services.AddControllersWithViews();
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

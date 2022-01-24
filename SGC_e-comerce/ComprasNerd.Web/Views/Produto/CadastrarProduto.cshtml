@@ -1,0 +1,84 @@
+﻿@model ComprasNerd.Web.Models.ProdutoModel;
+
+
+
+
+
+<form asp-action="CadastrarProduto">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-primary">Cadastro de produto</h1>
+        <hr />
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="Nome" class="control-label pt-2" style="font-size=20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+        </div>
+
+         <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="Preco" class="control-label pt-2" style="font-size=20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+        </div>
+
+         <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="Descricao" class="control-label pt-2" style="font-size=20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <textarea asp-for="Descricao" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+        </div>
+
+         <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="Categoria" class="control-label pt-2" style="font-size=20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Categoria" class="form-control" />
+                <span asp-validation-for="Categoria" class="text-danger"></span>
+            </div>
+        </div>
+
+         <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-2">
+                <label asp-for="UrlImagem" class="control-label pt-2" style="font-size=20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="UrlImagem" class="form-control" />
+                <span asp-validation-for="UrlImagem" class="text-danger"></span>
+            </div>
+      
+
+         <div class="col-5 offset-2">
+         <a asp-action="ProdutoIndex" class="btn-primary btn form-control">Voltar para a listagem</a>
+         </div>
+
+        <div class="col-5">
+            <input type="submit" value="Salvar" class="btn btn-success form-control" />
+        </div>
+          </div>
+
+    </div>
+
+</form>
+
+@section Scripts{
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

@@ -37,7 +37,7 @@ namespace ComprasNerd.ProdutoAPI
         }
 
         [HttpPost]
-        public async Task<ActionResult<ProdutoVO>> CreateProduto(ProdutoVO produto)
+        public async Task<ActionResult<ProdutoVO>> CreateProduto([FromBody] ProdutoVO produto)
         {
             if(produto== null) return BadRequest();
             var prod = await _repositorio.Create(produto);
@@ -47,7 +47,7 @@ namespace ComprasNerd.ProdutoAPI
         }
 
         [HttpPut]
-        public async Task<ActionResult<ProdutoVO>> UpdateProduto(ProdutoVO produto)
+        public async Task<ActionResult<ProdutoVO>> UpdateProduto([FromBody] ProdutoVO produto)
         {
             if (produto == null) return BadRequest();
             var prod = await _repositorio.Update(produto);
