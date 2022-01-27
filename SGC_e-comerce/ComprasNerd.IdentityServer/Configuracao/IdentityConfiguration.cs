@@ -22,7 +22,7 @@ namespace ComprasNerd.IdentityServer.Configuracao
                 new ApiScope("ComprasNerd","Compras Nerd Server"),
                 new ApiScope(name: "leitura","ler dados."),
                 new ApiScope(name:"escrever","escrever dados."),
-                new  ApiScope(name: "exlcuir","excluir dados.")
+                new ApiScope(name: "exlcuir","excluir dados.")
             };
 
         public static IEnumerable<Client> Clients =>
