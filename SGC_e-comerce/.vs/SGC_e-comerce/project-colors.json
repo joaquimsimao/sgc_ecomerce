@@ -10,7 +10,17 @@
       "ProjectGuid": "a7c7788b-208d-4aad-b9d3-0b2c045288bf",
       "DisplayName": "ComprasNerd.Web",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "58bb7646-ef9b-4e43-9e21-800e038fa65d": {
+      "ProjectGuid": "58bb7646-ef9b-4e43-9e21-800e038fa65d",
+      "DisplayName": "ComprasNerd.IdentityServer",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
